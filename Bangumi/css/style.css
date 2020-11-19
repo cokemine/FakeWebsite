@@ -1,0 +1,142 @@
+body {
+    font-size: 12px;
+    font-family: 'SF Pro SC', 'SF Pro Display', 'PingFang SC', 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif, "Hiragino Sans GB";
+    line-height: 150%;
+    background-color: #FFF;
+    color: #000
+}
+
+#header {
+    background-color: #fbfbfa;
+    float: left;
+    height: 50px;
+    border-bottom: 1px solid #DDD;
+}
+
+#menu #logo {
+    float: left;
+    margin: 8px 0;
+}
+
+#menu #navMain {
+    float: left;
+}
+
+#menu #navMain #nav1 {
+    background-color: #f2f2f2;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 100px 100px 100px 100px;
+    margin: 8px 5px 8px 0;
+    float: left;
+}
+
+#menu #navMain #nav1 li {
+    float: left;
+}
+
+#menu #navMain #nav1 li a {
+    display: block;
+    /*height: 35px;*/
+    /*line-height: 35px;*/
+    height:100%;
+    width: 100%;
+    font-weight: bold;
+    font-size: 14px;
+    color: #777777;
+    float: left;
+    padding: 0 8px;
+    /*margin-top: 8px;*/
+}
+
+#menu #navMain #nav1 li:first-child a {
+    padding-left: 15px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+#menu #navMain #nav1 li:last-child a {
+    padding-right: 15px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+#menu #navMain #nav1 li a:hover {
+    background-color: #f09199;
+    color: #ffffff;
+}
+
+#menu #navMain #nav2 {
+    height: 40px;
+    line-height: 38px;
+    /*margin: 8px 0;*/
+    float: left;
+}
+
+#menu #navMain #nav2 li {
+    float: left;
+}
+
+#menu #navMain #nav2 li a {
+    font-size: 14px;
+    display: block;
+    float: left;
+    color: #777777;
+    padding: 6px 5px 5px 5px;
+}
+
+#menu #navMain #nav2 li a:hover {
+    color: #333333;
+}
+
+#menu #header-right {
+    float: right;
+}
+
+#menu #header-right #search {
+    margin: 10px 10px 0 10px;
+    border: 1px solid #DDD;
+    border-radius: 100px;
+    float: right;
+}
+
+#menu #header-right #search .inner {
+    padding: 3px 5px;
+}
+
+#menu #header-right #search .inner select {
+    padding: 4px 0 4px 5px;
+    min-width: 35px;
+    appearance: none;
+    border: none;
+    outline: none;
+    font: 400 13.3333px Arial;
+    background-color: transparent;
+    border-right: 1px solid #DDD;
+    color: #000;
+}
+
+#menu #header-right #search .inner input.textfield {
+    width: 120px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+#menu #header-right #search .inner input.search {
+    text-indent: -9999px; /*字体隐藏*/
+    width: 20px;
+    height: 20px;
+    background: transparent url(../img/ico_search.png) 50% 50% no-repeat;
+    color: #FFF;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+#menu #header-right #id {
+    padding: 7px 0 5px 0;
+    float: right;
+    /*box-shadow: 0px 1px 0 rgba(255, 255, 255, 0.3), 0px 0 2px rgba(0, 0, 0, 0.3) inset;*/
+    border-radius: 3px;
+}
